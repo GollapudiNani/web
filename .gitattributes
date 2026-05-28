@@ -1,2 +1,230 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        <style>
+            
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+      scroll-behavior:smooth;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+    }
+
+    /* Header */
+
+    header{
+      background:#222;
+      color:white;
+      padding:15px 40px;
+
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    .logo{
+      font-size:24px;
+      font-weight:bold;
+    }
+
+    nav{
+      display:flex;
+      gap:20px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-size:18px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:orange;
+    }
+
+    /* Hero Section */
+
+    .hero{
+      height:90vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+
+      background:linear-gradient(to right,#4facfe,#00f2fe);
+      color:white;
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:55px;
+      margin-bottom:15px;
+    }
+
+    .hero p{
+      font-size:22px;
+      margin-bottom:20px;
+    }
+
+    .hero button{
+      padding:12px 25px;
+      border:none;
+      background:#222;
+      color:white;
+      font-size:18px;
+      border-radius:5px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .hero button:hover{
+      background:orange;
+      transform:scale(1.05);
+    }
+
+    /* About Section */
+
+    .about{
+      padding:60px 40px;
+      background:white;
+
+      display:flex;
+      align-items:center;
+      gap:40px;
+    }
+
+
+    .about-text h2{
+      font-size:35px;
+      margin-bottom:15px;
+    }
+
+    .about-text p{
+      font-size:18px;
+      line-height:1.7;
+    }
+    .projects{
+      padding:60px 40px;
+    }
+
+    .projects h2{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:35px;
+    }
+
+    .project-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:25px;
+    }
+
+    .card{
+      background:white;
+      border-radius:10px;
+      overflow:hidden;
+      box-shadow:0 3px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+    }
+
+    .card img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+    }
+    
+
+            
+    </style>
+</head>
+<body>
+    <header>
+
+    <div class="logo">My Portfolio</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
+  </header>
+
+  <!-- Hero Section -->
+
+  <section class="hero" id="home">
+
+    <h1>Hello, I'm Nani</h1>
+
+    <p>Frontend Developer & Student</p>
+
+    <button>View Projects</button>
+
+  </section>
+
+  <!-- About Section -->
+
+  <section class="about" id="about">
+
+    
+
+    <div class="about-text">
+
+      <h2>Types Of Forests</h2>
+
+      <p>
+        Forests in India cover approximately \(7,15,343 \text{ sq km}\), accounting for about 21.76% of the country's total geographical area. Ranging from the dense mangroves of the Sundarbans in West Bengal to the tropical rainforests of the Western Ghats and the alpine woods of the Himalayas, this diverse ecosystem is classified into several distinct categories
+      </p>
+
+    </div>
+    </section>
+    <section class="projects" id="projects">
+
+
+    <div class="project-grid">
+
+      <div class="card">
+        <img src="https://images.openai.com/static-rsc-4/we4iO5wt--cQaUiN4h7lsIhUeuK6JNtVPisSkyOcyLAQ6cFSh1d-l9yahA_alrayY-Im2pcDPPWGFtoy5wetpH5my7BpMvM7RzGcO5PJV01s6fONKpe1h8IYQea23_MxiDFMBZFM2EUMh-jeq3ApzUFNAaj_VUoLf-R4z5kUDBuFw77vAVsocAxMfyTV2aoX?purpose=inline" alt="">
+        <h3>Rainforest</h3>
+        <p>Rainforests are incredibly dense, lush ecosystems characterized by continuous tree canopies and heavy rainfall (typically over 80 inches annually). Covering just a small fraction of the Earth,</p>
+    
+      </div>
+
+      <div class="card">
+        <img src="https://images.openai.com/static-rsc-4/XV_d1h8ALuH-n-jxd5y-vYue7oMWnmTFnqn9-w0Ba9-eocdfuPsDtaQ7OYr78vvoA7iLR-WpfgV-lgGQV3sF45Hr6Eg2PUFVoAXMpaiDlrevVNaLBoRkwyKqGD-FzJRi_TTGcCHpyOkNjUnabWt1SebaUMA3J3bjZmYNX_YIZig?purpose=inline" alt="">
+        <h3>Tropical Evergreen Forests</h3>
+        <p>An evergreen forest consists of trees that retain their green leaves year-round, shedding them gradually rather than all at once. </p>
+        
+      </div>
+
+      <div class="card">
+        <img src="https://images.openai.com/static-rsc-4/bkZFuvnao9glJTWP8P3gInyzKY8yxkyLBlG_m-aW5qqBqGhYKIm8gvCslP0I_eJbjQLc8EmHZAhX2WSRcekZIOiE9gpOW3AVoVspW0obdLgk91UVfw9DXKqGAKaHRY8Kz5vGtT9AZQ_56puOrciTMrWC_cdXSoMnRVyH9oD6J5Q?purpose=inline" alt="">
+        <h3>Thorn Forests</h3>
+        <p>Thorn forests are found in arid and semi-arid regions, characterized by drought-resistant trees with thick, waxy leaves and thorns. </p>
+        
+      </div>
+
+
+ 
+</body>
+</html>
